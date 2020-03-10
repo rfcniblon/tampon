@@ -1,7 +1,7 @@
 import React from "react";
-import '../Site/Site-tampon.css';
-import '../Site/owl.carousel.min.css';
-import '../Site/themify-icons.css';
+// import '../Site/Site-tampon.css';
+// import '../Site/owl.carousel.min.css';
+// import '../Site/themify-icons.css';
 //import '../Site/bootstrap.min.css';
 
 class SiteTampon extends React.Component {
