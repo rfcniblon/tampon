@@ -32,7 +32,7 @@ class Testconversion extends Component {
                                         <li className="nav-item"> <a className="nav-link" href="#produits">PRODUITS</a>
                                         </li><li className="nav-item"> <a className="nav-link" href="#prix">PRIX</a> </li>
                                         <li className="nav-item"> <a className="nav-link" href="#faq">FAQ</a> </li>
-                                        <li className="nav-item"> <a className="nav-link" href="#">CONTACT</a> </li>
+                                        <li className="nav-item"> <a className="nav-link" href="/contact">CONTACT</a> </li>
                                         {/* <li class="nav-item"><a href="#" class="btn btn-outline-light my-3 my-sm-0 ml-lg-3">Download</a></li> */}
                                     </ul>
                                 </div>
@@ -67,7 +67,7 @@ class Testconversion extends Component {
                             </div>
                             <p className="taglinePrecommandeL4">OFFRE DE LANCEMENT*</p>
                             <span className="priceTop">149€<sub>/<del>199€</del></sub></span>
-                            <p><a className="nav-link1" href="#">Découvrir</a><a href="#" className="btn btn-outline-light my-3 my-sm-0 ml-lg-3">PRECOMMANDER</a>
+                            <p><a className="nav-link1" href="#">Découvrir</a><a href="precommande" className="btn btn-outline-light my-3 my-sm-0 ml-lg-3">PRECOMMANDER</a>
                             </p><p className="taglineInfo">*Offre de lancement valable du 24/02/2020 au 31/05/2020 - Limitée à 1 pack par exploitation agricole - voir conditions générales </p>
                         </div>
                         <div className="img-holder col-md-6">
@@ -88,7 +88,7 @@ class Testconversion extends Component {
                 <p>Pilotez et gérez la ventilation de vos stockages en toute simplicité avec le
                   service FarmViz.</p>
                 <p className="taglineInfo1">*Offre de lancement valable du 24/02/2020 au 31/05/2020 - Limitée à 1 pack par exploitation agricole - voir conditions générales </p> 
-                <p className="text-right"> <a href="#" className="btn btn-primary">Contactez-nous</a></p>  
+                <p className="text-right"> <a href="contact" className="btn btn-primary">Contactez-nous</a></p>  
               </div>
               <div className="col-md-4">
                 <img src="images/iphonex.png" alt="iphone" className="img-fluid" />
@@ -236,7 +236,7 @@ class Testconversion extends Component {
           <div className="container text-center">
             <h3>Je suis intéressé</h3>
             <p> </p>
-            <p><span className="ti-headphone-alt mr-2" /> <a href="tel:+33234401467">02.34.40.14.67</a><a href="#" className="btn btn-primary  my-6 my-sm-0 ml-lg-6">PRECOMMANDER</a>
+            <p><span className="ti-headphone-alt mr-2" /> <a href="tel:+33234401467">02.34.40.14.67</a><a href="precommande" className="btn btn-primary  my-6 my-sm-0 ml-lg-6">PRECOMMANDER</a>
             </p>
           </div>
         </div>
@@ -441,7 +441,7 @@ class Testconversion extends Component {
                   <div className="list-group-item">Garantie 1 an</div>
                 </ul>
                 <div className="card-body">
-                  <a href="#" className="btn btn-primary btn-lg btn-block">Demande de devis</a>
+                  <a href="devis" className="btn btn-primary btn-lg btn-block">Demande de devis</a>
                 </div>
               </div>
               <div className="card pricing popular">
@@ -458,7 +458,7 @@ class Testconversion extends Component {
                   <div className="list-group-item">Garantie 1 an</div>
                 </ul>
                 <div className="card-body">
-                  <a href="#" className="btn btn-primary btn-lg btn-block">PRECOMMANDER</a>
+                  <a href="precommande" className="btn btn-primary btn-lg btn-block">PRECOMMANDER</a>
                 </div>
               </div>
               <div className="card pricing">
@@ -477,7 +477,7 @@ class Testconversion extends Component {
                   <div className="list-group-item">Garantie 1 an</div>
                 </ul>
                 <div className="card-body">
-                  <a href="#" className="btn btn-primary btn-lg btn-block">Demande de devis</a> 
+                  <a href="devis" className="btn btn-primary btn-lg btn-block">Demande de devis</a> 
                 </div>
               </div>
             </div>
@@ -539,9 +539,9 @@ class Testconversion extends Component {
               </div>
               <div className="col-lg-6">
                 <div className="social-icons">
-                  <a href="#"><span className="ti-facebook" /></a>
-                  <a href="#"><span className="ti-twitter-alt" /></a>
-                  <a href="#"><span className="ti-linkedin" /></a>
+                  <a href="/https://fr-fr.facebook.com/FarmVizFr"><span className="ti-facebook" /></a>
+                  <a href="/https://twitter.com/farmviz?lang=fr"><span className="ti-twitter-alt" /></a>
+                  <a href="/https://linkedin.com/company/farmviz/"><span className="ti-linkedin" /></a>
                 </div>
               </div>
             </div>

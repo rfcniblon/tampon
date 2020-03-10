@@ -1,7 +1,6 @@
 import React from 'react';
 import { Switch, Route } from "react-router-dom";
-import Sitetampon from './components/Site/Site-tampon';
-import Testconversion from './components/Site/testconversion';
+import Site from './components/Site/Site';
 
 class App extends React.Component {
 
@@ -10,7 +9,7 @@ class App extends React.Component {
       <>
 
 
-<Testconversion />
+<Site />
 
       </>
     );
